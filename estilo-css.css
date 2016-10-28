@@ -3,7 +3,7 @@
 	padding:0;
 }
 body{
-	margin:0 auto;
+	margin:10 auto;
 	width: 940px;
 	font-size: 13px;
 	font-family: Verdana;
@@ -20,34 +20,34 @@ h1{
 	text-align: center;
 }
 nav ul {
-	list-style-type: none;
+	list-style-type: none; /*tirar sublinhado*/
 }
 nav ul li{
-	float:left;
+	float:left; /*colocar uma linha do lado da outra*/
 }
 
 nav ul li a{
-	display: block;
+	display: block; /*ficar em bloco*/
 	height: 25px; /*altura*/
 	padding: 0 30px; /*espaçamento*/
 	float: left; /* flutuar a esquerda*/
-	font-size: 14px;
+	font-size: 14px; /* tamanho da fonte*/
 	line-height: 30px; /*altura da linha*/
-	text-align: center;
-	text-decoration: none; /*retirar subliha dos links*/
-	color: #000000;
+	text-align: center; /*alinhamento do texto*/
+	text-decoration: none; /*retirar sublihando dos links*/
+	color: #000000; /* cor da fonte*/
 	font-weight: bold; /* negrito*/
 }
-nav ul li a:hover { /*passar mouse*/
+nav ul li a:hover { /* hover = passar mouse*/
 	color: #C861EE
 }
 nav ul li a.selecionado{
-	color: #FFFFFF;
-	background-color: #C861EE;
-	margin-left: 10px;
+	color: #FFFFFF; /*cor da fonte*/
+	background-color: #C861EE; /*cor do fundo*/
+	margin-left: 10px; /* margem*/
 	height: 30px;
 	line-height: 30px;
-	margin-top: 2px;
+	margin-top: 2px; /* uma pequena margem no texto*/
 }
 
 .destaque

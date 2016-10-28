@@ -43,7 +43,7 @@ nav ul li a{
 	font-size: 13px;
 	line-height: 30px; /*altura da linha*/
 	text-align: center;
-	text-decoration: none; /*retirar subliha dos links*/
+	text-decoration: none; /*retirar sublinhado dos links*/
 	color: #000000;
 	font-weight: bold; /* negrito*/
 }
@@ -119,13 +119,18 @@ aside section{
 	font-size: 16px;
 }
 
+aside section ul li{
+	list-style-type: none;
+}
+
 ul li a{
 	display:block;
 	height: 25px; /*altura*/
 	font-size: 14px;
-	text-decoration: none; /*retirar subliha dos links*/
+	text-decoration: none; /*retirar sublinhado dos links*/
 	color: #000;
 	font-weight: bold; /* negrito*/
+
 }
 
 ul li a:hover{ /*passar mouse*/
